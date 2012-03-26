@@ -57,7 +57,6 @@ var PolarClock = function(canvas)
 		_seconds = _date.getSeconds() + (_date.getMilliseconds()/1000);
 		_minutes = _date.getMinutes() + (_seconds/60);
 		_hours = _date.getHours() + (_minutes/60);
-		//if(_hours >= 13) _hours -= 12; // 12 hours instead of 24 TODO
 		
 		_dayOfTheWeek = _date.getDay() == 0 ? 6 : _date.getDay() - 1; // Make sunday the last day of the week
 		_dayOfTheMonth = _date.getDate();
