@@ -1,6 +1,6 @@
 # polarclock.js
 
-Simple HTML5 canvas experiment using JavaScript.
+Simple HTML5 canvas experiment using JavaScript. See [example](http://msavela.github.com/polarclock.js).
 
 ## Usage
 
@@ -16,5 +16,3 @@ window.onload = function()
 	new PolarClock(document.getElementById("clock")).start();
 }
 ```
-
-See [example](http://msavela.github.com/polarclock.js).
